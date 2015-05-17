@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FourInLine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin\Release\FourInLine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++0x" />
+					<Add option="-w" />
+					<Add option="-std=gnu++0x -static-libgcc" />
+					<Add directory="C:\wxStaticOGL\lib\gcc_lib\mswu" />
+					<Add directory="..\..\Program Files\OpenAL 1.1 SDK\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:\wxStaticOGL\lib\gcc_lib\mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libwxmsw29u.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxjpeg.a" />
+					<Add library="libwxtiff.a" />
+					<Add library="libwxzlib.a" />
+					<Add library="..\..\wxStaticOGL\lib\gcc_lib\libwxzlib.a" />
+					<Add library="..\..\wxStaticOGL\lib\gcc_lib\libwxexpat.a" />
+					<Add library="..\..\wxStaticOGL\lib\gcc_lib\libwxjpeg.a" />
+					<Add library="..\..\wxStaticOGL\lib\gcc_lib\libwxmsw29u.a" />
+					<Add library="..\..\wxStaticOGL\lib\gcc_lib\libwxmsw29u_gl.a" />
+					<Add library="..\..\wxStaticOGL\lib\gcc_lib\libwxpng.a" />
+					<Add library="..\..\wxStaticOGL\lib\gcc_lib\libwxregexu.a" />
+					<Add library="..\..\wxStaticOGL\lib\gcc_lib\libwxscintilla.a" />
+					<Add library="..\..\wxStaticOGL\lib\gcc_lib\libwxtiff.a" />
+					<Add library="..\..\CodeBlocks\MinGW\lib\libopengl32.a" />
+					<Add library="..\..\CodeBlocks\MinGW\lib\alut.lib" />
+					<Add library="..\..\libogg-1.3.1\libogg-1.3.1\win32\VS2010\Win32\Release\libogg_static.lib" />
+					<Add library="..\..\Program Files\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib" />
+					<Add library="..\..\libvorbis-1.3.3\libvorbis-1.3.3\win32\VS2010\Win32\Release\libvorbis.lib" />
+					<Add library="..\..\libvorbis-1.3.3\libvorbis-1.3.3\win32\VS2010\Win32\Release\libvorbisfile.lib" />
+					<Add library="C:\CodeBlocks\MinGW\lib\libglu32.a" />
+					<Add directory="C:\wxStaticOGL\lib\gcc_lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add option='[[if (PLATFORM == PLATFORM_MSW &amp;&amp; (GetCompilerFactory().GetCompilerVersionString(_T(&quot;gcc&quot;)) &gt;= _T(&quot;4.0.0&quot;))) print(_T(&quot;-Wno-attributes&quot;));]]' />
+			<Add option="-Wall" />
+			<Add directory="C:\wxStaticOGL\include" />
+			<Add directory="C:\wxStaticOGL\contrib\include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:\wxStaticOGL\include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+			<Add library="libkernel32.a" />
+			<Add library="libuser32.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libwinspool.a" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libadvapi32.a" />
+			<Add library="libshell32.a" />
+			<Add library="libole32.a" />
+			<Add library="liboleaut32.a" />
+			<Add library="libuuid.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="libwsock32.a" />
+			<Add library="libodbc32.a" />
+		</Linker>
+		<Unit filename="FourInLineApp.cpp" />
+		<Unit filename="FourInLineApp.h" />
+		<Unit filename="FourInLineMain.cpp" />
+		<Unit filename="FourInLineMain.h" />
+		<Unit filename="header\Canvas.h" />
+		<Unit filename="header\Chip.h" />
+		<Unit filename="header\Column.h" />
+		<Unit filename="header\GameBoard.h" />
+		<Unit filename="header\GameObject.h" />
+		<Unit filename="header\GameStates.h" />
+		<Unit filename="header\GraphicManager.h" />
+		<Unit filename="header\PBgsound.h" />
+		<Unit filename="header\PEvsound.h" />
+		<Unit filename="header\PSound.h" />
+		<Unit filename="header\Referee.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="src\Canvas.cpp" />
+		<Unit filename="src\Chip.cpp" />
+		<Unit filename="src\Column.cpp" />
+		<Unit filename="src\GameBoard.cpp" />
+		<Unit filename="src\GameObject.cpp" />
+		<Unit filename="src\GameStates.cpp" />
+		<Unit filename="src\GraphicManager.cpp" />
+		<Unit filename="src\PBgsound.cpp" />
+		<Unit filename="src\PEvsound.cpp" />
+		<Unit filename="src\PSound.cpp" />
+		<Unit filename="src\Referee.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

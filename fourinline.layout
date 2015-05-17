@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="FourInLineApp.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="19" topLine="0" />
+	</File>
+	<File name="FourInLineMain.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1388" topLine="36" />
+	</File>
+	<File name="header\Canvas.h" open="0" top="0" tabpos="0">
+		<Cursor position="985" topLine="18" />
+	</File>
+	<File name="header\GraphicManager.h" open="0" top="0" tabpos="0">
+		<Cursor position="508" topLine="0" />
+	</File>
+	<File name="src\Canvas.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="1113" topLine="19" />
+	</File>
+	<File name="src\Chip.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="257" topLine="13" />
+	</File>
+	<File name="src\Column.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="258" topLine="0" />
+	</File>
+	<File name="src\GameBoard.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="659" topLine="0" />
+	</File>
+	<File name="src\GraphicManager.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="6416" topLine="159" />
+	</File>
+</CodeBlocks_layout_file>
